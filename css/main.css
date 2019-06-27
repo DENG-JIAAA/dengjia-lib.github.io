@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #feb0f0;
+  background: #04b6ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,4 +2659,15 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("/images/blogbk.jpg") no-repeat;
+/* ����ͼ��ֱ��ˮƽ������ */
+  background-position: center center;
+/* �����ݸ߶ȴ���ͼƬ�߶�ʱ������ͼ���λ�������viewport�̶� */
+  background-attachment: fixed;
+/* �ñ���ͼ����������С���� */
+  background-size: cover;
+/* ���ñ�����ɫ������ͼ���ع����л���ʾ����ɫ */
+  background-color: rgba(0,0,0,0.5);
 }
