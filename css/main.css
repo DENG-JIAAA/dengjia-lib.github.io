@@ -1849,7 +1849,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #119860;
+  background: #c46f5c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2723,4 +2723,23 @@ embed {
 #sidebar span,
 #sidebar a {
   color: #fff;
+}
+.container .header-inner {
+  width: 100%;
+}
+.header {
+  line-height: 1.5;
+}
+.header-inner {
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+.posts-expand {
+  padding-top: 50px;
+}
+.posts-expand .post-meta {
+  margin: 5px 0px 0px 0px;
+}
+.post-button {
+  margin-top: 0px;
 }
