@@ -1,21 +1,21 @@
 const ap = new APlayer({
-    container: document.getElementById('player'),
-    listFolded: false,//列表默认折叠
-    listMaxHeight: 90,//列表最大高度
-    lrcType: 3, //此为歌词格式，没有歌词可以直接删掉这一行
+    container: document.getElementById('aplayer'),
+    listFolded: false,
+    listMaxHeight: 90,
+    lrcType: 3,
     audio: [
         {
-            name: 'Try',
-            artist: 'Asher Monroe',
-            url: '//music.163.com/outchain/player?type=2&id=5041667&auto=1&height=66.mp3',
+            name: 'name1',
+            artist: 'artist1',
+            url: 'https://m801.music.126.net/20191025192114/effef6747df93cf40ad7293c0be31e09/jdyyaac/5559/0008/545f/b3479073a27bc532a3c7c517e1e99e49.m4a',
             cover: 'cover1.jpg',
             lrc: 'lrc1.lrc',
             theme: '#ebd0c2'
         },
         {
-            name: '星河',
-            artist: '曹思义',
-            url: '//music.163.com/outchain/player?type=2&id=41641784&auto=1&height=66.mp3',
+            name: 'name2',
+            artist: 'artist2',
+            url: 'https://m801.music.126.net/20191025192114/effef6747df93cf40ad7293c0be31e09/jdyyaac/5559/0008/545f/b3479073a27bc532a3c7c517e1e99e49.m4a',
             cover: 'cover2.jpg',
             lrc: 'lrc2.lrc',
             theme: '#46718b'

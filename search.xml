@@ -3,7 +3,7 @@
   <entry>
     <title>颠覆世界的“自由主义教皇”林纳斯</title>
     <url>/2019/07/01/Linux/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>—  —  我的名字是Linus Torvalds，我是你们的上帝。</em>（在1998 Linux大会上的自我介绍）  </p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>—  —  我的名字是Linus Torvalds，我是你们的上帝。</em>（在1998 Linux大会上的自我介绍）  </p>
 <p>“有些人生来就具有统率百万人的领袖风范；另一些人则是为写出颠覆世界的软件而生。唯一一个能同时做到这两者的人，就是托瓦兹。”美国《<a href="https://baike.baidu.com/item/%E6%97%B6%E4%BB%A3/1944848" target="_blank" rel="noopener">时代</a>》周刊对“<a href="https://baike.baidu.com/item/Linux/27050" target="_blank" rel="noopener">Linux</a>之父”林纳斯·托瓦兹（Linus Torvalds）给出了极高的评价。甚至，在《时代》周刊根据读者投票评选出的二十世纪100位最重要人物中，林纳斯居然排到了第15位，而从20世纪的最后几年就开始霸占全球首富称号的<a href="https://baike.baidu.com/item/%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8/83241?fromtitle=%E7%9B%96%E8%8C%A8&fromid=14487" target="_blank" rel="noopener">盖茨</a>不过才是第17位。</p>
 <p>林纳斯的出名和“重要”来得并没什么先兆，尽管这个1969年出生在芬兰赫尔辛基的天才在年少时就已经颇具黑客神韵—对于电脑的着迷使他很早就能够驱使电脑做事情，对一切细节也都能控制自如。但当林纳斯在1991年就读于赫尔辛基大学期间刚刚开始对<a href="https://baike.baidu.com/item/Unix" target="_blank" rel="noopener">Unix</a>产生浓厚兴趣，尝试着在<a href="https://baike.baidu.com/item/Minix" target="_blank" rel="noopener">Minix</a>（Unix的变种）上做一些开发工作的时候，他从来也没想过会构建出一个新操作系统的内核来。</p>
 <p>Linux的诞生显得充满了偶然。林纳斯经常要用他的终端仿真器（Terminal Emulator）去访问大学主机上的新闻组和邮件，为了方便读写和下载文件，他自己编写了<em>磁盘驱动</em>程序和<em>文件系统</em>，这些在后来成为了Linux第一个内核的雏形。当时，他年仅21岁。</p>
@@ -23,7 +23,7 @@
   <entry>
     <title>使用Markdown作为渲染引擎解析文章</title>
     <url>/2019/06/29/%E4%BD%BF%E7%94%A8Markdown%E4%BD%9C%E4%B8%BA%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E%E8%A7%A3%E6%9E%90%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>记录第一次真正的使用Markdown来编辑一篇博客，练练手，希望通过这篇博客能够熟练掌握。感兴趣的小伙伴可以跟着我一起呀o(<em>￣▽￣</em>)ブ。那就废话不多说，我们开始吧。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>记录第一次真正的使用Markdown来编辑一篇博客，练练手，希望通过这篇博客能够熟练掌握。感兴趣的小伙伴可以跟着我一起呀o(<em>￣▽￣</em>)ブ。那就废话不多说，我们开始吧。</p>
 <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。 Markdown具有一系列衍生版本，用于扩展Markdown的功能，如表格、脚注、内嵌HTML等等……●-● </p>
 <h1 id="工具选择"><a href="#工具选择" class="headerlink" title="工具选择"></a>工具选择</h1><p>参考：<a href="https://blog.csdn.net/qq_23167527/article/details/85250442" target="_blank" rel="noopener"> https://blog.csdn.net/qq_23167527/article/details/85250442 </a></p>
 <p>选择喜欢的工具进行下载。</p>
@@ -173,12 +173,12 @@
   <entry>
     <title>Just do it！</title>
     <url>/2019/06/29/My-first-blog/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
     <url>/2019/06/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
