@@ -7,7 +7,7 @@ const ap = new APlayer({
         {
             name: 'name1',
             artist: 'artist1',
-            url: 'https://m801.music.126.net/20191025192114/effef6747df93cf40ad7293c0be31e09/jdyyaac/5559/0008/545f/b3479073a27bc532a3c7c517e1e99e49.m4a',
+            url: '//music.163.com/outchain/player?type=2&id=5041667&auto=1&height=66',
             cover: 'cover1.jpg',
             lrc: 'lrc1.lrc',
             theme: '#ebd0c2'
@@ -15,7 +15,7 @@ const ap = new APlayer({
         {
             name: 'name2',
             artist: 'artist2',
-            url: 'https://m801.music.126.net/20191025192114/effef6747df93cf40ad7293c0be31e09/jdyyaac/5559/0008/545f/b3479073a27bc532a3c7c517e1e99e49.m4a',
+            url: '//music.163.com/outchain/player?type=2&id=5041667&auto=1&height=66',
             cover: 'cover2.jpg',
             lrc: 'lrc2.lrc',
             theme: '#46718b'
