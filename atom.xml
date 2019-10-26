@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://djosimon.top/"/>
-  <updated>2019-10-25T04:07:19.476Z</updated>
+  <updated>2019-10-26T08:54:21.260Z</updated>
   <id>https://djosimon.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Next集成Algolia搜索</title>
+    <link href="https://djosimon.top/2019/10/26/Hexo-Next%E9%9B%86%E6%88%90Algolia%E6%90%9C%E7%B4%A2/"/>
+    <id>https://djosimon.top/2019/10/26/Hexo-Next集成Algolia搜索/</id>
+    <published>2019-10-26T04:40:02.000Z</published>
+    <updated>2019-10-26T08:54:21.260Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><h1 id="集成Algolia搜索"><a href="#集成Algolia搜索" class="headerlink" title="集成Algolia搜索"></a>集成Algolia搜索</h1><p>&emsp;&emsp;NexT 支持集成 Swiftype、 微搜索、Local Search 和 Algolia。鉴于Swiftype现在收费了，也没有免费版本。Local Search搜索体验不好，微搜索Next官网上描述太少！所以选择Algolia。</p><p><strong><em>注：</em></strong>Algolia搜索在版本<strong>5.1.0</strong>中引入，要使用此功能请确保所使用的 NexT 版本在此之后。</p><p>&emsp;&emsp;前往 <a href="https://www.algolia.com/" target="_blank" rel="noopener">Algolia 注册页面</a>，注册一个新账户。 可以使用 <em>GitHub</em> 或者 <em>Google</em> 账户直接登录，注册后的 14 天内拥有所有功能（包括收费类别的）。之后若未续费会自动降级为免费账户，免费账户 总共有 10,000 条记录，每月有 100,000 的可以操作数。</p><br><h1 id="注册Algolia，创建Index"><a href="#注册Algolia，创建Index" class="headerlink" title="注册Algolia，创建Index"></a>注册Algolia，创建Index</h1><p>&emsp;&emsp;注册完成后，创建一个新的 Index，这个 Index 将在后面使用。我这里已经创建好了，所以你也可以在这里选择再新建一个。创建过程就不说了，跟着官网步骤来就行了。</p><p><img src="https://i.loli.net/2019/10/26/L7BjRO8vKN5aHxW.png" alt="step1"></p><p><img src="https://i.loli.net/2019/10/26/6yiV1mzTbS4tHfX.png" alt="step1_1"></p><br><h1 id="安装-Hexo-Algolia"><a href="#安装-Hexo-Algolia" class="headerlink" title="安装 Hexo Algolia"></a>安装 Hexo Algolia</h1><p>&emsp;&emsp;Index 创建完成后，此时这个 Index 里未包含任何数据。 接下来需要安装 <a href="https://github.com/oncletom/hexo-algolia" target="_blank" rel="noopener">Hexo Algolia</a> 扩展， 这个扩展的功能是搜集站点的内容并通过 API 发送给 Algolia。前往站点根目录，执行命令安装：</p><div class="note success"><p>npm install --save hexo-algolia </p></div><br><h1 id="获取Key，更新站点配置"><a href="#获取Key，更新站点配置" class="headerlink" title="获取Key，更新站点配置"></a>获取Key，更新站点配置</h1><p><img src="https://i.loli.net/2019/10/26/4y98jlXKYxtCP6w.png" alt="keys"></p><p>&emsp;&emsp;前往站点根目录打开<code>站点配置文件</code>，添加以下代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">algolia: </span><br><span class="line">    applicationID: &apos;你的Application ID&apos;</span><br><span class="line">    apiKey: &apos;你的Search-Only API Key&apos;</span><br><span class="line">    indexName: &apos;输入刚才创建index name&apos;</span><br><span class="line">    chunkSize: 5000</span><br></pre></td></tr></table></figure><br><h2 id="修改Algolia搜索ACL（访问控制列表）"><a href="#修改Algolia搜索ACL（访问控制列表）" class="headerlink" title="修改Algolia搜索ACL（访问控制列表）"></a>修改Algolia搜索ACL（访问控制列表）</h2><p>&emsp;&emsp;找到新建INDEX对应的API key， 编辑权限。<br>&emsp;&emsp;我当时在做的时候，发现编辑不了，提示：“This API Key was created automatically and cannot be edited.(此 API 密钥是自动创建的，无法编辑。)”，索性就新建了一个API Key。</p><p><img src="https://i.loli.net/2019/10/26/DsWcMhgJC73xtyP.png" alt="apikey"></p><p>&emsp;&emsp;勾选以下选项。<br><img src="https://i.loli.net/2019/10/26/wQz9Ack8YXsnyir.png" alt="xuanxiang"></p><p>&emsp;&emsp;完成后点击 Update<br><br></p><h1 id="更新-Index"><a href="#更新-Index" class="headerlink" title="更新 Index"></a>更新 Index</h1><p>&emsp;&emsp;当配置完成，在站点根目录下执行：</p><div class="note warning no-icon"><p>$ export(windows 为 set) HEXO_ALGOLIA_INDEXING_KEY=Search-Only API key</p><p>$ hexo algolia</p></div>&emsp;&emsp;替换Search-Only API key为你自己的API Key。<img src="https://i.loli.net/2019/10/26/algpEZs1bt5XUzy.jpg" width="50%" height="50%" div align="center"><br><h1 id="主题集成"><a href="#主题集成" class="headerlink" title="主题集成"></a>主题集成</h1><p>&emsp;&emsp;更改<code>主题配置文件</code>，找到 Algolia Search 配置部分：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">algolia_search:</span><br><span class="line">  enable: true</span><br><span class="line">  hits:</span><br><span class="line">    per_page: 10</span><br><span class="line">  labels:</span><br><span class="line">    input_placeholder: 请输入关键字...</span><br><span class="line">    hits_empty: &quot;我们没有找到任何搜索结果: $&#123;query&#125;&quot;</span><br><span class="line">    hits_stats: &quot;找到$&#123;hits&#125;条相关记录，共耗时 $&#123;time&#125; ms&quot;</span><br></pre></td></tr></table></figure><p>&emsp;&emsp;将 enable 改为 true 即可，根据需要你可以调整 labels 中的文本。</p><p><img src="https://i.loli.net/2019/10/26/78vIGhOog1qzceZ.jpg" alt="search"></p><br><h1 id="可能存在的BUG"><a href="#可能存在的BUG" class="headerlink" title="可能存在的BUG"></a>可能存在的BUG</h1><p>&emsp;&emsp;移动端遮罩盖住搜索<br><img src="https://i.loli.net/2019/10/26/TL1SxoensCArfK6.png" alt="phone"></p><p>&emsp;&emsp;原因：遮罩的z-index值太高，我的next主题是5.1.4版本。<br>&emsp;&emsp;解决方案： 找到themes\next\source\css_common\components\third-party 下面的 algolia-search.styl 文件 第8行追加：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mobile()</span><br><span class="line">z-index: 1000</span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2019/10/26/ZhHMLXipyxqTJml.png" alt="z-index"></p><p>&emsp;&emsp;即可。</p><br><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><em>感谢掘金的一位博主</em>   <a href="https://juejin.im/post/5af3f9d1518825673e35a6eb" target="_blank" rel="noopener">jilei786</a><br><a href="http://theme-next.iissnan.com/third-party-services.html#algolia-search" target="_blank" rel="noopener">官方文档</a><br><a href="https://stackoverflow.com/questions/36915651/not-enough-rights-to-add-an-object-error-while-implementing-algolia?answertab=votes" target="_blank" rel="noopener">StackOverflow</a></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      hexo+Algolia
+    
+    </summary>
+    
+      <category term="博客" scheme="https://djosimon.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://djosimon.top/tags/Hexo/"/>
+    
+      <category term="Algolia" scheme="https://djosimon.top/tags/Algolia/"/>
+    
+  </entry>
   
   <entry>
     <title>颠覆世界的“自由主义教皇”林纳斯</title>

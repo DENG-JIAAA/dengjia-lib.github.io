@@ -1894,7 +1894,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #44ff50;
+  background: #ffa712;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2483,17 +2483,7 @@ pre .javascript .function {
   color: #333;
   z-index: 9999;
   border-radius: 5px;
-}
-@media (max-width: 767px) {
-  .algolia-popup {
-    padding: 0;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
+  z-index: 1000;
 }
 .algolia-popup .popup-btn-close {
   position: absolute;
@@ -2598,11 +2588,7 @@ pre .javascript .function {
   position: relative;
   top: 3px;
   left: 20px;
-}
-@media (max-width: 767px) {
-  .page-archive .archive-page-counter {
-    top: 5px;
-  }
+  z-index: 1000;
 }
 .page-archive .posts-collapse .archive-move-on {
   position: absolute;
@@ -2817,12 +2803,10 @@ pre .javascript .function {
 .page-post-detail .comments {
   overflow: hidden;
 }
-@media (max-width: 767px) {
-  .header-inner,
-  .container .main-inner,
-  .footer-inner {
-    width: auto;
-  }
+.header-inner,
+.container .main-inner,
+.footer-inner {
+  z-index: 1000;
 }
 embed {
   display: block;
@@ -2848,40 +2832,20 @@ embed {
   max-width: 150px;
   background: #fff;
 }
-@media (max-width: 767px) {
-  .site-nav {
-    position: absolute;
-    left: 0;
-    top: 52px;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    background: #fff;
-    border-bottom: 1px solid #ddd;
-    z-index: 1030;
-  }
+.site-nav {
+  z-index: 1000;
 }
-@media (max-width: 767px) {
-  .menu {
-    text-align: left;
-  }
+.menu {
+  z-index: 1000;
 }
-@media (max-width: 767px) {
-  .menu .menu-item {
-    display: block;
-    margin: 0 10px;
-    vertical-align: top;
-  }
+.menu .menu-item {
+  z-index: 1000;
 }
-@media (max-width: 767px) {
-  .menu .menu-item br {
-    display: none;
-  }
+.menu .menu-item br {
+  z-index: 1000;
 }
-@media (max-width: 767px) {
-  .menu .menu-item a {
-    padding: 5px 10px;
-  }
+.menu .menu-item a {
+  z-index: 1000;
 }
 .menu .menu-item .fa {
   margin-right: 0;
