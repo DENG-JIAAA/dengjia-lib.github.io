@@ -3,6 +3,7 @@ const ap = new APlayer({
     listFolded: false,
     listMaxHeight: 90,
     lrcType: 3,
+    preload: 'auto', //预加载，可选值: 'none', 'metadata', 'auto'
     loop: 'all',
     mini: false, //迷你模式
     audio: [
