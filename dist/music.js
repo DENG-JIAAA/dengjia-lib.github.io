@@ -4,46 +4,84 @@ const ap = new APlayer({
     listMaxHeight: 90,
     lrcType: 3,
     loop: 'all',
+    mini: false, //迷你模式
     audio: [
+        {
+            name: '明年今日(Live)',
+            artist: '陈奕迅',
+            url: '../songs/明年今日(Live).m4a',
+            cover: '../songs/明年今日(Live).jpg',
+            lrc: '../songs/明年今日(Live).lrc'
+        },
+        {
+            name: '最佳损友',
+            artist: '陈奕迅',
+            url: '../songs/最佳损友.m4a',
+            cover: '../songs/最佳损友.jpg',
+            lrc: '../songs/最佳损友.lrc'
+        },
+        {
+            name: 'Nothing Ever Happened',
+            artist: '陈奕迅',
+            url: '../songs/Nothing Ever Happened.m4a',
+            cover: '../songs/Nothing Ever Happened.jpg',
+            lrc: '../songs/Nothing Ever Happened.lrc'
+        },
+        {
+            name: '约定',
+            artist: '王菲',
+            url: '../songs/约定.m4a',
+            cover: '../songs/约定.jpg',
+            lrc: '../songs/约定.lrc'
+        },
+        {
+            name: '水星记',
+            artist: '郭顶',
+            url: '../songs/水星记.m4a',
+            cover: '../songs/水星记.jpg',
+            lrc: '../songs/水星记.lrc'
+        },
+        {
+            name: '在云端',
+            artist: '郭顶',
+            url: '../songs/在云端.m4a',
+            cover: '../songs/在云端.jpg',
+            lrc: '../songs/在云端.lrc'
+        },
+        {
+            name: '梦',
+            artist: '柴田淳',
+            url: '../songs/梦.m4a',
+            cover: '../songs/梦.jpg',
+            lrc: ''
+        },
         {
             name: 'Try',
             artist: 'AsherMonroe',
             url: '../songs/AsherMonroe-Try.m4a',
             cover: '../songs/AsherMonroe-Try.jpg',
-            lrc: '../AsherMonroe-Try.lrc',
-            theme: '#ebd0c2'
+            lrc: ''
         },
         {
-            name: '认真的雪',
-            artist: 'artist2',
-            url: 'https://m701.music.126.net/20191027192152/0521ee7682cc29db7b77385ee0d8cd66/jdyyaac/5559/0008/545f/b3479073a27bc532a3c7c517e1e99e49.m4a',
-            cover: 'cover2.jpg',
-            lrc: 'lrc2.lrc',
-            theme: '#46718b'
+            name: '早已离开我(Live)',
+            artist: '张学友',
+            url: '../songs/早已离开我(Live).m4a',
+            cover: '../songs/早已离开我(Live).jpg',
+            lrc: ''
         },
         {
-            name: '3',
-            artist: 'artist3',
-            url: '',
-            cover: 'cover2.jpg',
-            lrc: 'lrc2.lrc',
-            theme: '#46718b'
+            name: '光辉岁月',
+            artist: 'Beyone',
+            url: '../songs/光辉岁月.m4a',
+            cover: '../songs/光辉岁月.jpg',
+            lrc: '../songs/光辉岁月.lrc'
         },
         {
-            name: '4',
-            artist: 'artist4',
-            url: '',
-            cover: 'cover2.jpg',
-            lrc: 'lrc2.lrc',
-            theme: '#46718b'
-        },
-        {
-            name: '5',
-            artist: 'artist5',
-            url: '',
-            cover: 'cover2.jpg',
-            lrc: 'lrc2.lrc',
-            theme: '#46718b'
+            name: 'The Other Side',
+            artist: 'The Workday Release',
+            url: '../songs/The Other Side.m4a',
+            cover: '../songs/The Other Side.jpg',
+            lrc: ''
         }
     ]
 });
