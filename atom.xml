@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://djosimon.top/"/>
-  <updated>2019-10-28T05:06:03.267Z</updated>
+  <updated>2019-10-28T14:23:45.646Z</updated>
   <id>https://djosimon.top/</id>
   
   <author>
@@ -17,11 +17,79 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>罗辑 &quot;星海横流&quot;</title>
+    <link href="https://djosimon.top/2019/10/28/%E7%BD%97%E8%BE%91%E6%98%9F%E6%B5%B7%E6%A8%AA%E6%B5%81/"/>
+    <id>https://djosimon.top/2019/10/28/罗辑星海横流/</id>
+    <published>2019-10-28T14:06:41.000Z</published>
+    <updated>2019-10-28T14:23:45.646Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br><h4 id="面壁者-·-罗辑"><a href="#面壁者-·-罗辑" class="headerlink" title="面壁者 · 罗辑"></a>面壁者 · 罗辑</h4><p>&emsp;&emsp;他走上高速公路，等了几分钟后拦住了一辆车，车里是一家三口，他们很热情地让他搭上了车。这一家子是返回旧城的冬眠者，孩子还小，母亲也很年轻，他们三个人挤在前座上窃窃私语，那孩子不时把脑袋钻到妈妈怀中，每到这时三人就一起笑起来。罗辑陶醉地看着，他听不清他们说什么，因为车里放着音乐，是20世纪的老歌，一路上罗辑听了五六首，其中有《喀秋莎》和《红莓花儿开》，于是他满心希望能听到《山楂树》，这是两个世纪前他在那个村前的大戏台上为想象中的爱人唱过的，后来，在那个北欧的伊甸园中，在倒映着雪山的湖边，他也和庄颜一起唱过这首歌。</p><p>&emsp;&emsp;这时，一辆车迎面开来，车灯照亮了后座，孩子无意中回头看了一眼，然后盯着罗辑叫道：“呀，他好像是面壁者呀！”于是孩子的父母也都回头看他，他只好承认自己就是罗辑。</p><p>&emsp;&emsp;这时，车内响起了《山楂树》。</p><p>&emsp;&emsp;车停了下来，“下去。”孩子的父亲冷冷地说，母亲和孩子看他的眼光也如外面的秋雨般冰凉。</p><p>&emsp;&emsp;罗辑没有动，他想听那首歌。</p><p>&emsp;&emsp;“请下去。”那男人又说，罗辑读出了他们目光中的含义：没有救世的能力不是你的错，但给世界以希望后又打碎它则是一种不可饶恕的罪恶。</p><p>&emsp;&emsp;罗辑只好起身下车，他的旅行包随后被扔了出来，车启动时他跟着跑了几步，想再听听那首歌，但《山楂树》很快就消失在冰冷的雨夜中。</p><p>&emsp;&emsp;他像一位孤独的行者，义无反顾的走向自己的归宿。</p><p>&emsp;&emsp;车是半空的，坐了六七个人，看上去也都是旧城的冬眠者居民。车里的人们都不说话，默默地感觉着这秋夜的阴郁。一路上很顺利，但一个多小时后还是有人认出了罗辑，于是车里的人一致要求他下车。罗辑争辩说自己已经输入信用点买了票，当然有权坐车。有一个头发花白的老者章出了两枚现在已经很不常见的现金属硬币扔给了他，他还是被赶下了车。</p><p>&emsp;&emsp;“面壁者，你背把铁锹干什么？”车开时有人从车窗探出头问。</p><p>&emsp;&emsp;“为自己挖墓。”罗辑说，引起了车里的一阵哄笑。</p><p>&emsp;&emsp;没人知道他说的是真话。</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      面壁者，你背把铁锹干什么？
+    
+    </summary>
+    
+      <category term="文章" scheme="https://djosimon.top/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="罗辑" scheme="https://djosimon.top/tags/%E7%BD%97%E8%BE%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 发表博客常用命令</title>
+    <link href="https://djosimon.top/2019/10/28/Hexo-%E5%8F%91%E8%A1%A8%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://djosimon.top/2019/10/28/Hexo-发表博客常用命令/</id>
+    <published>2019-10-28T13:33:51.000Z</published>
+    <updated>2019-10-28T14:01:00.752Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br><h1 id="与君共勉"><a href="#与君共勉" class="headerlink" title="与君共勉"></a>与君共勉</h1><br><h3 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><h3 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft &quot;new draft&quot;</span><br><span class="line">$ hexo --draft  #显示草稿</span><br></pre></td></tr></table></figure><h3 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server   #启动服务预览</span><br></pre></td></tr></table></figure><h3 id="hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d"><a href="#hexo-clean-amp-amp-hexo-g-amp-amp-hexo-d" class="headerlink" title="hexo clean &amp;&amp; hexo g &amp;&amp; hexo d"></a>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean    #清理缓存文件</span><br><span class="line">$ hexo generate #生成静态文件</span><br><span class="line">$ hexo deploy   #部署到远程站点</span><br><span class="line">                #每次发布时，使用 hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><h3 id="Option"><a href="#Option" class="headerlink" title="Option"></a>Option</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo --safe   #表示安全模式，用于禁用加载插件和脚本</span><br><span class="line">$ hexo --debug  #表示调试模式，用于将消息详细记录到终端和 debug.log 文件</span><br><span class="line">$ hexo --silent #表示静默模式，用于静默输出到终端</span><br></pre></td></tr></table></figure><h3 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo version  #显示 Hexo 版本。</span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    <summary type="html">
+    
+      Share with you.
+    
+    </summary>
+    
+      <category term="博客" scheme="https://djosimon.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://djosimon.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网易云音乐获取播放链接</title>
+    <link href="https://djosimon.top/2019/10/28/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E8%8E%B7%E5%8F%96%E6%92%AD%E6%94%BE%E9%93%BE%E6%8E%A5/"/>
+    <id>https://djosimon.top/2019/10/28/网易云音乐获取播放链接/</id>
+    <published>2019-10-28T12:45:01.000Z</published>
+    <updated>2019-10-28T13:20:54.086Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br><h1 id="网易云音乐获取播放链接"><a href="#网易云音乐获取播放链接" class="headerlink" title="网易云音乐获取播放链接"></a>网易云音乐获取播放链接</h1><br><h3 id="获取歌曲ID"><a href="#获取歌曲ID" class="headerlink" title="获取歌曲ID"></a>获取歌曲ID</h3><h5 id="打开网易云音乐软件，点击歌曲“分享”，”复制链接“。"><a href="#打开网易云音乐软件，点击歌曲“分享”，”复制链接“。" class="headerlink" title="打开网易云音乐软件，点击歌曲“分享”，”复制链接“。"></a>打开网易云音乐软件，点击歌曲“分享”，”复制链接“。</h5><p><img src="https://i.loli.net/2019/10/28/2LHA3G974JKEtro.jpg" alt="wangyi_1.png"><br>&emsp;&emsp;链接文本：<a href="http://music.163.com/song?id=441491828&userid=130700033" target="_blank" rel="noopener">http://music.163.com/song?id=441491828&amp;userid=130700033</a><br>&emsp;&emsp;歌曲ID即为：<code>441491828</code><br><br></p><h5 id="也可以打开网易音乐网页界面，按F12进入控制台，同样可以获取歌曲ID："><a href="#也可以打开网易音乐网页界面，按F12进入控制台，同样可以获取歌曲ID：" class="headerlink" title="也可以打开网易音乐网页界面，按F12进入控制台，同样可以获取歌曲ID："></a>也可以打开网易音乐网页界面，按<code>F12</code>进入控制台，同样可以获取歌曲ID：</h5><p><img src="https://i.loli.net/2019/10/28/uzObei8JaX7sSQx.png" alt="wangyi_2.png"><br><br></p><h3 id="MP3链接"><a href="#MP3链接" class="headerlink" title="MP3链接"></a>MP3链接</h3><p>&emsp;&emsp;<a href="http://music.163.com/song/media/outer/url?id=xxxxx.mp3" target="_blank" rel="noopener">http://music.163.com/song/media/outer/url?id=xxxxx.mp3</a><br>&emsp;&emsp;之后再用<code>441491828</code>换掉<code>xxxxx</code>即可。</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      获取网易音乐.MP3链接
+    
+    </summary>
+    
+      <category term="小技巧" scheme="https://djosimon.top/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="网易云" scheme="https://djosimon.top/tags/%E7%BD%91%E6%98%93%E4%BA%91/"/>
+    
+      <category term="url" scheme="https://djosimon.top/tags/url/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo+Next集成Algolia搜索</title>
     <link href="https://djosimon.top/2019/10/26/Hexo-Next%E9%9B%86%E6%88%90Algolia%E6%90%9C%E7%B4%A2/"/>
     <id>https://djosimon.top/2019/10/26/Hexo-Next集成Algolia搜索/</id>
     <published>2019-10-26T04:40:02.000Z</published>
-    <updated>2019-10-28T05:06:03.267Z</updated>
+    <updated>2019-10-28T12:32:34.848Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br><h1 id="集成Algolia搜索"><a href="#集成Algolia搜索" class="headerlink" title="集成Algolia搜索"></a>集成Algolia搜索</h1><p>&emsp;&emsp;NexT 支持集成 Swiftype、 微搜索、Local Search 和 Algolia。鉴于Swiftype现在收费了，也没有免费版本。Local Search搜索体验不好，微搜索Next官网上描述太少！所以选择Algolia。</p><p><strong><em>注：</em></strong>Algolia搜索在版本<strong>5.1.0</strong>中引入，要使用此功能请确保所使用的 NexT 版本在此之后。</p><p>&emsp;&emsp;前往 <a href="https://www.algolia.com/" target="_blank" rel="noopener">Algolia 注册页面</a>，注册一个新账户。 可以使用 <em>GitHub</em> 或者 <em>Google</em> 账户直接登录，注册后的 14 天内拥有所有功能（包括收费类别的）。之后若未续费会自动降级为免费账户，免费账户 总共有 10,000 条记录，每月有 100,000 的可以操作数。</p><br><h1 id="注册Algolia，创建Index"><a href="#注册Algolia，创建Index" class="headerlink" title="注册Algolia，创建Index"></a>注册Algolia，创建Index</h1><p>&emsp;&emsp;注册完成后，创建一个新的 Index，这个 Index 将在后面使用。我这里已经创建好了，所以你也可以在这里选择再新建一个。创建过程就不说了，跟着官网步骤来就行了。</p><p><img src="https://i.loli.net/2019/10/26/L7BjRO8vKN5aHxW.png" alt="step1"></p><p><img src="https://i.loli.net/2019/10/26/6yiV1mzTbS4tHfX.png" alt="step1_1"></p><br><h1 id="安装-Hexo-Algolia"><a href="#安装-Hexo-Algolia" class="headerlink" title="安装 Hexo Algolia"></a>安装 Hexo Algolia</h1><p>&emsp;&emsp;Index 创建完成后，此时这个 Index 里未包含任何数据。 接下来需要安装 <a href="https://github.com/oncletom/hexo-algolia" target="_blank" rel="noopener">Hexo Algolia</a> 扩展， 这个扩展的功能是搜集站点的内容并通过 API 发送给 Algolia。前往站点根目录，执行命令安装：</p><div class="note success"><p>npm install --save hexo-algolia </p></div><br><h1 id="获取Key，更新站点配置"><a href="#获取Key，更新站点配置" class="headerlink" title="获取Key，更新站点配置"></a>获取Key，更新站点配置</h1><p><img src="https://i.loli.net/2019/10/26/4y98jlXKYxtCP6w.png" alt="keys"></p><p>&emsp;&emsp;前往站点根目录打开<code>站点配置文件</code>，添加以下代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">algolia: </span><br><span class="line">    applicationID: &apos;你的Application ID&apos;</span><br><span class="line">    apiKey: &apos;你的Search-Only API Key&apos;</span><br><span class="line">    indexName: &apos;输入刚才创建index name&apos;</span><br><span class="line">    chunkSize: 5000</span><br></pre></td></tr></table></figure><br><h2 id="修改Algolia搜索ACL（访问控制列表）"><a href="#修改Algolia搜索ACL（访问控制列表）" class="headerlink" title="修改Algolia搜索ACL（访问控制列表）"></a>修改Algolia搜索ACL（访问控制列表）</h2><p>&emsp;&emsp;找到新建INDEX对应的API key， 编辑权限。<br>&emsp;&emsp;我当时在做的时候，发现编辑不了，提示：“This API Key was created automatically and cannot be edited.(此 API 密钥是自动创建的，无法编辑。)”，索性就新建了一个API Key。</p><p><img src="https://i.loli.net/2019/10/26/DsWcMhgJC73xtyP.png" alt="apikey"></p><p>&emsp;&emsp;勾选以下选项。<br><img src="https://i.loli.net/2019/10/26/wQz9Ack8YXsnyir.png" alt="xuanxiang"></p><p>&emsp;&emsp;完成后点击 Update<br><br></p><h1 id="更新-Index"><a href="#更新-Index" class="headerlink" title="更新 Index"></a>更新 Index</h1><p>&emsp;&emsp;当配置完成，在站点根目录下执行：</p><div class="note warning no-icon"><p>$ export(windows 为 set) HEXO_ALGOLIA_INDEXING_KEY=Search-Only API key</p><p>$ hexo algolia</p></div>&emsp;&emsp;替换Search-Only API key为你自己的API Key。<img src="https://i.loli.net/2019/10/26/algpEZs1bt5XUzy.jpg" width="50%" height="50%" div align="center"><br><h1 id="主题集成"><a href="#主题集成" class="headerlink" title="主题集成"></a>主题集成</h1><p>&emsp;&emsp;更改<code>主题配置文件</code>，找到 Algolia Search 配置部分：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">algolia_search:</span><br><span class="line">  enable: true</span><br><span class="line">  hits:</span><br><span class="line">    per_page: 10</span><br><span class="line">  labels:</span><br><span class="line">    input_placeholder: 请输入关键字...</span><br><span class="line">    hits_empty: &quot;我们没有找到任何搜索结果: $&#123;query&#125;&quot;</span><br><span class="line">    hits_stats: &quot;找到$&#123;hits&#125;条相关记录，共耗时 $&#123;time&#125; ms&quot;</span><br></pre></td></tr></table></figure><p>&emsp;&emsp;将 enable 改为 true 即可，根据需要你可以调整 labels 中的文本。</p><p><img src="https://i.loli.net/2019/10/26/78vIGhOog1qzceZ.jpg" alt="search"></p><br><h1 id="可能存在的BUG"><a href="#可能存在的BUG" class="headerlink" title="可能存在的BUG"></a>可能存在的BUG</h1><p>&emsp;&emsp;移动端遮罩盖住搜索<br><img src="https://i.loli.net/2019/10/26/TL1SxoensCArfK6.png" alt="phone"></p><p>&emsp;&emsp;原因：遮罩的z-index值太高，我的next主题是5.1.4版本。<br>&emsp;&emsp;解决方案： 找到themes\next\source\css_common\components\third-party 下面的 algolia-search.styl 文件 第8行追加：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">+mobile()</span><br><span class="line">z-index: 1000</span><br></pre></td></tr></table></figure><img src="https://i.loli.net/2019/10/26/VgmvRnOCA2l9fzj.png" width="88%" height="88%" div align="center"><p>&emsp;&emsp;即可。</p><br><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><em>感谢掘金的一位博主</em>   <a href="https://juejin.im/post/5af3f9d1518825673e35a6eb" target="_blank" rel="noopener">jilei786</a><br><a href="http://theme-next.iissnan.com/third-party-services.html#algolia-search" target="_blank" rel="noopener">官方文档</a><br><a href="https://stackoverflow.com/questions/36915651/not-enough-rights-to-add-an-object-error-while-implementing-algolia?answertab=votes" target="_blank" rel="noopener">StackOverflow</a></p><hr>]]></content>
     
@@ -93,7 +161,7 @@
     <link href="https://djosimon.top/2019/06/29/My-first-blog/"/>
     <id>https://djosimon.top/2019/06/29/My-first-blog/</id>
     <published>2019-06-29T05:45:37.000Z</published>
-    <updated>2019-10-28T05:08:37.046Z</updated>
+    <updated>2019-10-28T12:32:58.520Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br>]]></content>
     
@@ -115,7 +183,7 @@
     <link href="https://djosimon.top/2019/06/26/hello-world/"/>
     <id>https://djosimon.top/2019/06/26/hello-world/</id>
     <published>2019-06-26T06:17:53.093Z</published>
-    <updated>2019-10-28T05:11:30.263Z</updated>
+    <updated>2019-10-28T12:32:20.118Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br><a id="more"></a><br><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
