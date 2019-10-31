@@ -755,7 +755,7 @@ pre .javascript .function {
 .post-body .note h4,
 .post-body .note h5,
 .post-body .note h6 {
-  margin-top: 3px;
+  margin-top: 0;
   margin-bottom: 0;
   border-bottom: initial;
   padding-top: 0 !important;
@@ -776,16 +776,6 @@ pre .javascript .function {
 .post-body .note blockquote:last-child {
   margin-bottom: 0;
 }
-.post-body .note:not(.no-icon) {
-  padding-left: 45px;
-}
-.post-body .note:not(.no-icon):before {
-  position: absolute;
-  font-family: 'FontAwesome';
-  font-size: larger;
-  top: 13px;
-  left: 15px;
-}
 .post-body .note.default {
   background-color: #f7f7f7;
   border-left-color: #777;
@@ -795,10 +785,6 @@ pre .javascript .function {
 .post-body .note.default h4,
 .post-body .note.default h5,
 .post-body .note.default h6 {
-  color: #777;
-}
-.post-body .note.default:not(.no-icon):before {
-  content: "\f0a9";
   color: #777;
 }
 .post-body .note.primary {
@@ -812,10 +798,6 @@ pre .javascript .function {
 .post-body .note.primary h6 {
   color: #6f42c1;
 }
-.post-body .note.primary:not(.no-icon):before {
-  content: "\f055";
-  color: #6f42c1;
-}
 .post-body .note.info {
   background-color: #eef7fa;
   border-left-color: #428bca;
@@ -825,10 +807,6 @@ pre .javascript .function {
 .post-body .note.info h4,
 .post-body .note.info h5,
 .post-body .note.info h6 {
-  color: #428bca;
-}
-.post-body .note.info:not(.no-icon):before {
-  content: "\f05a";
   color: #428bca;
 }
 .post-body .note.success {
@@ -842,10 +820,6 @@ pre .javascript .function {
 .post-body .note.success h6 {
   color: #5cb85c;
 }
-.post-body .note.success:not(.no-icon):before {
-  content: "\f058";
-  color: #5cb85c;
-}
 .post-body .note.warning {
   background-color: #fdf8ea;
   border-left-color: #f0ad4e;
@@ -857,10 +831,6 @@ pre .javascript .function {
 .post-body .note.warning h6 {
   color: #f0ad4e;
 }
-.post-body .note.warning:not(.no-icon):before {
-  content: "\f06a";
-  color: #f0ad4e;
-}
 .post-body .note.danger {
   background-color: #fcf1f2;
   border-left-color: #d9534f;
@@ -870,10 +840,6 @@ pre .javascript .function {
 .post-body .note.danger h4,
 .post-body .note.danger h5,
 .post-body .note.danger h6 {
-  color: #d9534f;
-}
-.post-body .note.danger:not(.no-icon):before {
-  content: "\f056";
   color: #d9534f;
 }
 .post-body .label {
@@ -923,9 +889,6 @@ pre .javascript .function {
   border-top: 3px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
-  transition-delay: 0s;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab {
@@ -1930,7 +1893,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6c094e;
+  background: #74f9b8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3171,10 +3134,9 @@ img.img-topic {
 .sidebar {
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: rgba(0,0,0,0.75);
-  right: 10px;
 }
 .sidebar-inner {
-  margin-top: 23px;
+  margin-top: 30px;
 }
 .sidebar-nav li {
   font-size: 15px;
@@ -3182,11 +3144,11 @@ img.img-topic {
   color: #d3d3d3;
 }
 .sidebar-nav li:hover {
-  color: #a166ab;
+  color: #fff;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #07b39b;
-  border-bottom-color: #a166ab;
+  color: #191970;
+  border-bottom-color: #6a5acd;
   border-bottom-width: 1.5px;
 }
 .sidebar-nav .sidebar-nav-active:hover {
@@ -3229,7 +3191,7 @@ img.img-topic {
 .links-of-blogroll-title {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: rgba(7,179,155,0.75);
+  color: rgba(7,179,155,0.85);
   margin-left: 6px;
   font-size: 15px;
   font-weight: bold;
@@ -3249,7 +3211,7 @@ img.img-topic {
   margin-bottom: 20px;
 }
 .post-toc ol a {
-  color: #07b39b;
+  color: #faebd7;
   border-bottom: 1px solid #607d8b;
 }
 .post-toc ol a:hover {
