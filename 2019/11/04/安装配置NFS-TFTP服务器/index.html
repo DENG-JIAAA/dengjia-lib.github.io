@@ -100,7 +100,7 @@
 
 
 
-  <meta name="keywords" content="TCP,三次握手,">
+  <meta name="keywords" content="NFS,TFTP,">
 
 
 
@@ -113,20 +113,20 @@
 
 
 
-<meta name="description" content="Done is better than perfect.">
-<meta name="keywords" content="TCP,三次握手">
+<meta name="description" content="Stay hungry，Stay foolish.">
+<meta name="keywords" content="NFS,TFTP">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TCP三次握手和四次挥手">
-<meta property="og:url" content="https://djosimon.top/2019/11/04/TCP三次握手/index.html">
+<meta property="og:title" content="安装配置NFS+TFTP服务器">
+<meta property="og:url" content="https://djosimon.top/2019/11/04/安装配置NFS-TFTP服务器/index.html">
 <meta property="og:site_name" content="DJOSIMON">
-<meta property="og:description" content="Done is better than perfect.">
+<meta property="og:description" content="Stay hungry，Stay foolish.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://i.loli.net/2019/11/04/quILaoUMFRxnET2.jpg">
-<meta property="og:updated_time" content="2019-11-04T15:31:24.927Z">
+<meta property="og:image" content="https://i.loli.net/2019/11/04/SOQNGLeIEkVAj3W.jpg">
+<meta property="og:updated_time" content="2019-11-04T15:36:05.863Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TCP三次握手和四次挥手">
-<meta name="twitter:description" content="Done is better than perfect.">
-<meta name="twitter:image" content="https://i.loli.net/2019/11/04/quILaoUMFRxnET2.jpg">
+<meta name="twitter:title" content="安装配置NFS+TFTP服务器">
+<meta name="twitter:description" content="Stay hungry，Stay foolish.">
+<meta name="twitter:image" content="https://i.loli.net/2019/11/04/SOQNGLeIEkVAj3W.jpg">
 
 
 
@@ -156,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="https://djosimon.top/2019/11/04/TCP三次握手/">
+  <link rel="canonical" href="https://djosimon.top/2019/11/04/安装配置NFS-TFTP服务器/">
 
 
 
 
 
-  <title>TCP三次握手和四次挥手 | DJOSIMON</title>
+  <title>安装配置NFS+TFTP服务器 | DJOSIMON</title>
   
 
 
@@ -356,7 +356,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://djosimon.top/2019/11/04/TCP三次握手/">
+    <link itemprop="mainEntityOfPage" href="https://djosimon.top/2019/11/04/安装配置NFS-TFTP服务器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Deng Jia">
@@ -373,7 +373,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">TCP三次握手和四次挥手</h1>
+          <h1 class="post-title" itemprop="name headline">安装配置NFS+TFTP服务器</h1>
         
 
         <div class="post-meta">
@@ -385,7 +385,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-04T13:12:33+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-04T16:46:45+08:00">
                 2019-11-04
               </time>
             
@@ -408,8 +408,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/计网/" itemprop="url" rel="index">
-                    <span itemprop="name">计网</span>
+                  <a href="/categories/安装/" itemprop="url" rel="index">
+                    <span itemprop="name">安装</span>
                   </a>
                 </span>
 
@@ -439,7 +439,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,128
+                  1,476
                 </span>
               
 
@@ -455,7 +455,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4
+                  7
                 </span>
               
             </div>
@@ -463,7 +463,7 @@
 
           
               <div class="post-description">
-                  Done is better than perfect.
+                  Stay hungry，Stay foolish.
               </div>
           
 
@@ -482,8 +482,8 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/11/04/quILaoUMFRxnET2.jpg" rel="gallery_ck2jyx2jh001ensu38u3qah8z" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
-                <img src="https://i.loli.net/2019/11/04/quILaoUMFRxnET2.jpg" itemprop="contentUrl">
+              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/11/04/SOQNGLeIEkVAj3W.jpg" rel="gallery_ck2k6kjbc0000lwu3rekxlss7" itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://i.loli.net/2019/11/04/SOQNGLeIEkVAj3W.jpg" itemprop="contentUrl">
               </a>
             
           
@@ -497,55 +497,69 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><br>
 <a id="more"></a>
 
-<p><strong>参考</strong>：<a href="https://blog.csdn.net/qq_36903042/article/details/102513465" target="_blank" rel="noopener">动画：用动画给面试官解释 TCP 三次握手过程</a><br>&emsp;&emsp;&emsp;<a href="https://mp.weixin.qq.com/s/8t_KFtrrBkFyZKPJg_y6pw" target="_blank" rel="noopener">关于三次握手与四次挥手面试官想考我们什么？</a></p>
-<br>
-
-<h1 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h1><h2 id="TCP是什么？🚀"><a href="#TCP是什么？🚀" class="headerlink" title="TCP是什么？🚀"></a>TCP是什么？<a href="https://baike.baidu.com/item/TCP/33012" target="_blank" rel="noopener">🚀</a></h2><div class="note default no-icon">
-<p>TCP（Transmission Control Protocol 传输控制协议）是一种面向连接的、可靠的、基于字节流的传输层通信协议。</p>
-<p>简单通俗的说就是网络通讯协议。</p>
-<p>TCP提供超时重发，丢弃重复数据，检验数据，流量控制等功能，保证数据能从一端传到另一端。</p>
+<h1 id="NFS"><a href="#NFS" class="headerlink" title="NFS"></a>NFS</h1><div class="note info">
+<p>NFS（Network FileSystem），网络文件存储系统。</p>
 </div>
 
-<br>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><strong>更新软件列表</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># sudo apt-get update</span><br></pre></td></tr></table></figure>
 
-<h2 id="TCP-头部报文"><a href="#TCP-头部报文" class="headerlink" title="TCP 头部报文"></a>TCP 头部报文</h2><img src="https://i.loli.net/2019/11/04/W9m7tpIEvVCkc6N.png" width="60%" height="60%" div align="center">
-<img src="https://i.loli.net/2019/11/04/OrsuXxFmaT1qSPi.jpg" width="60%" height="60%" div align="center">
+<p><strong>安装nfs服务器</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># sudo apt-get install nfs-kernel-server nfs-common</span><br></pre></td></tr></table></figure>
 
-<h3 id="Source-Port-和-Destination-Port"><a href="#Source-Port-和-Destination-Port" class="headerlink" title="Source Port 和 Destination Port"></a>Source Port 和 Destination Port</h3><div class="note info no-icon">
-<p>Source Port是【源端口】，指本地端口。</p>
-<p>Destination Port是【目的端口】，指远程端口。</p>
+<p>其中：nfs-common是客户端、nfs-kernel-server是服务器端</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># sudo vim /etc/export</span><br><span class="line"># /etc/exports: the access control list for filesystems which may be exported</span><br><span class="line">#               to NFS clients.  See exports(5).</span><br><span class="line">#</span><br><span class="line"># Example for NFSv2 and NFSv3:</span><br><span class="line"># /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)</span><br><span class="line">#</span><br><span class="line"># Example for NFSv4:</span><br><span class="line"># /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)</span><br><span class="line"># /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)</span><br><span class="line">/home/farsight/nfsdir *(rw,sync,no_subtree_check)</span><br></pre></td></tr></table></figure>
+
+<img src="https://i.loli.net/2019/11/04/MGwDu7OC6gQHy9t.jpg" width="75%" height="75%" div align="center">
+
+<div class="note default no-icon">
+<p>
+
+</p><p>NFS的配置文件/etc/exports，其格式如下：<br>&lt;共享目录&gt; 客户端1(选项) [客户端2(选项) …]<br>其中：<br>&emsp;&emsp;&emsp;&emsp;共享目录：NFS共享给客户机的目录。<br>&emsp;&emsp;&emsp;&emsp;客户端：网络中可以访问此目录的主机。多个客户端以空格分隔。<br>&emsp;&emsp;&emsp;&emsp;选项：设置目录的访问权限、用户映射等，多个选项以逗号分隔。<br>例如：<br>&emsp;&emsp;&emsp;&emsp;/home/farsight/nfsdir *(rw,sync,no_subtree_check)</p>
+<p>客户端的指定方式<br>&emsp;&emsp;&emsp;&emsp;指定ip地址的主机：192.168.0.100<br>&emsp;&emsp;&emsp;&emsp;指定子网中的所有主机：192.168.0.0/24 或 192.168.0.0/255.255.255.0<br>&emsp;&emsp;&emsp;&emsp;指定域名的主机：nfs.farsight.com<br>&emsp;&emsp;&emsp;&emsp;指定域中的所有主机：<em>.farsight.com<br>&emsp;&emsp;&emsp;&emsp;所有主机：</em></p>
+<p>选项说明<br>&emsp;&emsp;&emsp;&emsp;ro：共享目录只读；<br>&emsp;&emsp;&emsp;&emsp;rw：共享目录可读可写；<br>&emsp;&emsp;&emsp;&emsp;all_squash：所有访问用户都映射为匿名用户或用户组；<br>&emsp;&emsp;&emsp;&emsp;no_all_squash（默认）：访问用户先与本机用户匹配，匹配失败后再映射为匿名用户或用户组；<br>&emsp;&emsp;&emsp;&emsp;root_squash（默认）：将来访的root用户映射为匿名用户或用户组；<br>&emsp;&emsp;&emsp;&emsp;no_root_squash：来访的root用户保持root帐号权限；<br>&emsp;&emsp;&emsp;&emsp;anonuid=<uid>：指定匿名访问用户的本地用户UID，默认为nfsnobody（65534）；<br>&emsp;&emsp;&emsp;&emsp;anongid=<gid>：指定匿名访问用户的本地用户组GID，默认为nfsnobody（65534）；<br>&emsp;&emsp;&emsp;&emsp;secure（默认）：限制客户端只能从小于1024的tcp/ip端口连接服务器；<br>&emsp;&emsp;&emsp;&emsp;insecure：允许客户端从大于1024的tcp/ip端口连接服务器；<br>&emsp;&emsp;&emsp;&emsp;sync：将数据同步写入内存缓冲区与磁盘中，效率低，但可以保证数据的一致性；<br>&emsp;&emsp;&emsp;&emsp;async：将数据先保存在内存缓冲区中，必要时才写入磁盘；<br>&emsp;&emsp;&emsp;&emsp;wdelay（默认）：检查是否有相关的写操作，如果有则将这些写操作一起执行，这样可以提高效率；<br>&emsp;&emsp;&emsp;&emsp;no_wdelay：若有写操作则立即执行，应与sync配合使用；<br>&emsp;&emsp;&emsp;&emsp;subtree_check（默认） ：若输出目录是一个子目录，则nfs服务器将检查其父目录的权限；<br>&emsp;&emsp;&emsp;&emsp;no_subtree_check ：即使输出目录是一个子目录，nfs服务器也不检查其父目录的权限，这样可以提高效率；</gid></uid></p>
+<p></p>
 </div>
 
-<h3 id="Sequence-Numbe"><a href="#Sequence-Numbe" class="headerlink" title="Sequence Numbe"></a>Sequence Numbe</h3><div class="note info no-icon">
-<p>发送数据包中的第一个字节的序列号。接收端根据这个编号进行确认，保证分割的数据段在原始数据包的位置。</p>
+<h2 id="服务器操作"><a href="#服务器操作" class="headerlink" title="服务器操作"></a>服务器操作</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">停止服务器</span><br><span class="line"># sudo /etc/init.d/nfs-kernel-server stop</span><br><span class="line">[ ok ] Stopping nfs-kernel-server (via systemctl): nfs-kernel-server.service.</span><br><span class="line"></span><br><span class="line">启动服务器</span><br><span class="line"># sudo /etc/init.d/nfs-kernel-server start</span><br><span class="line">[ ok ] Starting nfs-kernel-server (via systemctl): nfs-kernel-server.service.</span><br><span class="line"></span><br><span class="line">重启服务器</span><br><span class="line"># sudo /etc/init.d/nfs-kernel-server restart</span><br><span class="line">[ ok ] Restarting nfs-kernel-server (via systemctl): nfs-kernel-server.service.</span><br></pre></td></tr></table></figure>
+
+<h2 id="NFS相关命令"><a href="#NFS相关命令" class="headerlink" title="NFS相关命令"></a>NFS相关命令</h2><div class="note default no-icon">
+<p>
+
+</p><p><strong>exportfs</strong><br>&emsp;&emsp;不重启nfs服务应用更新，相关选项如下：<br>&emsp;&emsp;-a 全部挂载或卸载 /etc/exports中的内容<br>&emsp;&emsp;-r 重新读取/etc/exports 中的信息 ，并同步更新/etc/exports、/var/lib/nfs/xtab<br>&emsp;&emsp;-u 卸载单一目录（和-a一起使用为卸载所有/etc/exports文件中的目录）<br>&emsp;&emsp;-v 在export的时候，将详细的信息输出到屏幕上。</p>
+<p><strong>nfsstat</strong><br>&emsp;&emsp;查看NFS的运行状态。</p>
+<p><strong>rpcinfo</strong><br>&emsp;&emsp;查看rpc服务注册情况。<br>&emsp;&emsp;相关选项：<br>&emsp;&emsp;-p 显示所有的端口与程序信息。<br>&emsp;&emsp;示例：<br>&emsp;&emsp;rpcinfo -p localhost  #列出本机的RPC注册状况。</p>
+<p><strong>showmount</strong><br>&emsp;&emsp;查询nfs共享目录信息，相关选项如下：<br>&emsp;&emsp;-a 显示已经于客户端连接上的目录信息<br>&emsp;&emsp;-e IP或者hostname 显示此IP地址分享出来的目录</p>
+<p></p>
 </div>
 
-<h3 id="Acknowledgment-Numbe"><a href="#Acknowledgment-Numbe" class="headerlink" title="Acknowledgment Numbe"></a>Acknowledgment Numbe</h3><div class="note info no-icon">
-<p>确认序列号，主要用来解决不丢包的问题。</p>
+<h2 id="挂载演示"><a href="#挂载演示" class="headerlink" title="挂载演示"></a>挂载演示</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount -t nfs -o nolock nfs服务器主机名/IP:/nfs共享目录 /挂载目录</span><br></pre></td></tr></table></figure>
+
+<h1 id="TFTP"><a href="#TFTP" class="headerlink" title="TFTP"></a>TFTP</h1><div class="note info">
+<p>TFTP（Trivial File Transfer Protocol），简单文件传输协议。</p>
 </div>
 
-<h3 id="TCP-Flag"><a href="#TCP-Flag" class="headerlink" title="TCP Flag"></a>TCP Flag</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">标志位：6位</span><br><span class="line"> URG表示Urgent Pointer字段有意义</span><br><span class="line"> ACK表示Acknowledgment Number字段有意义</span><br><span class="line"> PSH表示Push功能</span><br><span class="line"> RST表示复位TCP连接</span><br><span class="line"> SYN表示SYN报文（在建立TCP连接的时候使用）</span><br><span class="line"> FIN表示没有数据需要发送了（在关闭TCP连接的时候使用）</span><br></pre></td></tr></table></figure>
+<h2 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h2><p><strong>更新软件列表</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># sudo apt-get update</span><br></pre></td></tr></table></figure>
 
-<p><strong><em>需注意：</em></strong><br><strong><font color="red">ACK</font></strong> ：此标志表示「应答域有效」，就是说前面所说的TCP应答号将会包含在 TCP 数据包中；有两个取值：0 和 1，为 1 的时候表示应答域有效，反之为 0；<br><strong><font color="red">SYN</font></strong> ：表示「同步序列号」，是 TCP 握手的发送的第一个数据包。<br><strong><font color="red">FIN</font></strong> ：表示发送端已经达到数据末尾，也就是说双方的数据传送完成，没有数据可以传送了，发送FIN标志位的 TCP 数据包后，连接将被断开。这个标志的数据包也经常被用于进行端口扫描。</p>
-<h3 id="Window-size"><a href="#Window-size" class="headerlink" title="Window size"></a>Window size</h3><p>称为滑动窗口大小。所说的滑动窗口，用来进行流量控制。</p>
-<h3 id="Checksum"><a href="#Checksum" class="headerlink" title="Checksum"></a>Checksum</h3><p>校验和。</p>
-<h3 id="Urgent-Pointers"><a href="#Urgent-Pointers" class="headerlink" title="Urgent Pointers"></a>Urgent Pointers</h3><p>紧急指针。</p>
-<h2 id="TCP-三次握手过程"><a href="#TCP-三次握手过程" class="headerlink" title="TCP 三次握手过程"></a>TCP 三次握手过程</h2><p><img src="https://i.loli.net/2019/11/04/yFmke4jTow1Wsxq.png" alt="tcp_3"><br><strong>初始状态</strong>：客户端处于<font color="blue">closed</font> 状态，服务端处于 <font color="blue">listen</font> 状态。<br><strong>第一次握手</strong>：客户端给服务端发送一个<font color="blue">SYN</font>报文，并指明了客户端的初始序列号<font color="blue">ISN(c)</font>，发送完之后客户端处于<font color="blue">SYN_Send</font>状态。<br><strong>第二次握手</strong>：服务端收到客户端的<font color="blue">SYN</font>报文之后，如果同意连接，会以自己的<font color="blue">SYN</font>报文作为应答，并指明了自己的初始化序列号<font color="blue">ISN(s)</font>，服务端将发送报文：<font color="blue">SYN(服务端) 和 SYN(客户端)+1 (ACK)</font>，表示已经收到了客户端的<font color="blue">SYN</font>报文，此时服务器处于<font color="blue">SYN_Recive</font>状态。<br><strong>第三次握手</strong>：客户端收到服务端的<font color="blue">ACK</font>报文之后，会发送一个<font color="blue">SYN(服务端)+1 (ACK)</font>报文作为应答，表示已经收到了服务端的<font color="blue">SYN+ACK</font>报文。此时客户端处于<font color="blue">established</font>状态。<br><strong>最后</strong>：服务器收到了客户端的<font color="blue">ACK</font>报文之后，此时服务端处于<font color="blue">established</font>状态。</p>
-<h2 id="为什么进行三次握手？（三次握手的作用）"><a href="#为什么进行三次握手？（三次握手的作用）" class="headerlink" title="为什么进行三次握手？（三次握手的作用）"></a>为什么进行三次握手？（三次握手的作用）</h2><div class="note warning no-icon">
-<p>1、确认双方的接收能力与发送能力是否正常。</p>
-<p>2、指定自己的初始化序列号，为后面的可靠传送做准备。</p>
-<p>3、如果是 https 协议的话，三次握手这个过程，还会进行数字证书的验证以及加密密钥的生成到。</p>
-</div>
+<p><strong>安装tftpd-hpa服务器</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># sudo apt-get install tftpd-hpa tftp-hpa</span><br></pre></td></tr></table></figure>
 
-<br>
+<h2 id="查看客户端tftp和服务器tftpd的帮助文档"><a href="#查看客户端tftp和服务器tftpd的帮助文档" class="headerlink" title="查看客户端tftp和服务器tftpd的帮助文档"></a>查看客户端tftp和服务器tftpd的帮助文档</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># man tftp</span><br><span class="line">tftp [ options... ] [host [port]] [-c command]</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"># man tftpd</span><br><span class="line">in.tftpd [options...]  directory...</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
 
-<h1 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h1><p><strong>第一次挥手</strong>：客户端发送一个 <font color="blue">FIN</font> 报文，报文中会指定一个序列号。此时客户端处于<font color="blue">CLOSED_WAIT1</font>状态。</p>
-<p><strong>第二次握手</strong>：服务端收到 <font color="blue">FIN</font> 之后，会发送 <font color="blue">ACK</font> 报文，且把客户端的序列号值 <font color="blue">+ 1</font> 作为 <font color="blue">ACK</font> 报文的序列号值，表明已经收到客户端的报文了，此时服务端处于 <font color="blue">CLOSE_WAIT2</font>状态。</p>
-<p><strong>第三次挥手</strong>：如果服务端也想断开连接了，和客户端的第一次挥手一样，发给 <font color="blue">FIN</font> 报文，且指定一个序列号。此时服务端处于 <font color="blue">LAST_ACK</font> 的状态。</p>
-<p><strong>第四次挥手</strong>：客户端收到 <font color="blue">FIN</font> 之后，一样发送一个 <font color="blue">ACK</font> 报文作为应答，且把服务端的序列号值 <font color="blue">+ 1</font> 作为自己 <font color="blue">ACK</font> 报文的序列号值，此时客户端处于 <font color="blue">TIME_WAIT</font> 状态。需要过一阵子以确保服务端收到自己的 <font color="blue">ACK</font> 报文之后才会进入 <font color="blue">CLOSED</font> 状态</p>
-<p>5、服务端收到 <font color="blue">ACK</font> 报文之后，就处于关闭连接了，处于 <font color="blue">CLOSED</font> 状态。</p>
+<h2 id="配置-1"><a href="#配置-1" class="headerlink" title="配置"></a>配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># sudo vim /etc/default/tftped-hpa</span><br><span class="line">TFTP_USERNAME=&quot;tftp&quot;			# 默认登录的用户名</span><br><span class="line">TFTP_DIRECTORY=&quot;/home/farsight/tftpdir&quot; # 这是tftpd-hpa服务器的下载目录【这个目录是随意选的】</span><br><span class="line">TFTP_ADDRESS=&quot;0.0.0.0:69&quot;		# 指定ip和端口号</span><br><span class="line">TFTP_OPTIONS=&quot;-l -c -s&quot;</span><br><span class="line"></span><br><span class="line"># -l：以standalone/listen模式启动TFTP服务，而不是从xinetd启动</span><br><span class="line"># -c：可创建新文件。默认情况下TFTP只允许覆盖原有文件而不能创建新文件</span><br><span class="line"># -s：改变TFTP启动的根目录，加了-s后，客户端使用TFTP时，不再需要输入指定目录，而是使用配置文件中写好的目录。</span><br></pre></td></tr></table></figure>
+
+<h2 id="测试使用"><a href="#测试使用" class="headerlink" title="测试使用"></a>测试使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">停止服务器</span><br><span class="line"># sudo /etc/init.d/tftpd-hpa stop</span><br><span class="line">[ ok ] Stopping tftpd-hpa (via systemctl): tftpd-hpa.service.</span><br><span class="line"></span><br><span class="line">启动服务器</span><br><span class="line"># sudo /etc/init.d/tftpd-hpa start</span><br><span class="line">[ ok ] Starting tftpd-hpa (via systemctl): tftpd-hpa.service.</span><br><span class="line"></span><br><span class="line">重启服务器</span><br><span class="line"># sudo /etc/init.d/tftpd-hpa restart</span><br><span class="line">[ ok ] Restarting tftpd-hpa (via systemctl): tftpd-hpa.service.</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"># tftp 192.168.2.1</span><br><span class="line">tftp&gt; ?</span><br><span class="line">tftp-hpa 5.2</span><br><span class="line">Commands may be abbreviated.  Commands are:</span><br><span class="line"></span><br><span class="line">connect 	connect to remote tftp</span><br><span class="line">mode    	set file transfer mode</span><br><span class="line">put     	send file</span><br><span class="line">get     	receive file</span><br><span class="line">quit    	exit tftp</span><br><span class="line">verbose 	toggle verbose mode</span><br><span class="line">trace   	toggle packet tracing</span><br><span class="line">literal 	toggle literal mode, ignore &apos;:&apos; in file name</span><br><span class="line">status  	show current status</span><br><span class="line">binary  	set mode to octet</span><br><span class="line">ascii   	set mode to netascii</span><br><span class="line">rexmt   	set per-packet transmission timeout</span><br><span class="line">timeout 	set total retransmission timeout</span><br><span class="line">?       	print help information</span><br><span class="line">help    	print help information</span><br></pre></td></tr></table></figure>
+
+<img src="https://i.loli.net/2019/11/04/XGbcpyj7PtVawQK.jpg" width="75%" height="75%" div align="center">
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tftp&gt; get 文件名</span><br><span class="line">tftp&gt; put 文件名</span><br></pre></td></tr></table></figure>
+
+<h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># tftp 192.168.2.131</span><br><span class="line"></span><br><span class="line">tftp&gt; put 1.txt</span><br><span class="line">tftp: 1.txt: No such file or directory ---&gt; 当前目前下没有文件a</span><br><span class="line"></span><br><span class="line">tftp&gt; put 2.txt</span><br><span class="line">Error code 1: File not found ---&gt; 服务器不允许上传文件</span><br></pre></td></tr></table></figure>
+
 <hr>
-
       
     </div>
     
@@ -574,7 +588,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://djosimon.top/2019/11/04/TCP三次握手/" title="TCP三次握手和四次挥手">https://djosimon.top/2019/11/04/TCP三次握手/</a>
+    <a href="https://djosimon.top/2019/11/04/安装配置NFS-TFTP服务器/" title="安装配置NFS+TFTP服务器">https://djosimon.top/2019/11/04/安装配置NFS-TFTP服务器/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -589,9 +603,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/TCP/" rel="tag"><i class="fa fa-tag"></i> TCP</a>
+            <a href="/tags/NFS/" rel="tag"><i class="fa fa-tag"></i> NFS</a>
           
-            <a href="/tags/三次握手/" rel="tag"><i class="fa fa-tag"></i> 三次握手</a>
+            <a href="/tags/TFTP/" rel="tag"><i class="fa fa-tag"></i> TFTP</a>
           
         </div>
       
@@ -619,8 +633,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/10/28/罗辑星海横流/" rel="next" title="罗辑 " 星海横流"">
-                <i class="fa fa-chevron-left"></i> 罗辑 "星海横流"
+              <a href="/2019/11/04/TCP三次握手/" rel="next" title="TCP三次握手和四次挥手">
+                <i class="fa fa-chevron-left"></i> TCP三次握手和四次挥手
               </a>
             
           </div>
@@ -628,10 +642,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/11/04/安装配置NFS-TFTP服务器/" rel="prev" title="安装配置NFS+TFTP服务器">
-                安装配置NFS+TFTP服务器 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -964,7 +974,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#三次握手"><span class="nav-number">1.</span> <span class="nav-text">三次握手</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP是什么？🚀"><span class="nav-number">1.1.</span> <span class="nav-text">TCP是什么？🚀</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP-头部报文"><span class="nav-number">1.2.</span> <span class="nav-text">TCP 头部报文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Source-Port-和-Destination-Port"><span class="nav-number">1.2.1.</span> <span class="nav-text">Source Port 和 Destination Port</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sequence-Numbe"><span class="nav-number">1.2.2.</span> <span class="nav-text">Sequence Numbe</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Acknowledgment-Numbe"><span class="nav-number">1.2.3.</span> <span class="nav-text">Acknowledgment Numbe</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TCP-Flag"><span class="nav-number">1.2.4.</span> <span class="nav-text">TCP Flag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Window-size"><span class="nav-number">1.2.5.</span> <span class="nav-text">Window size</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Checksum"><span class="nav-number">1.2.6.</span> <span class="nav-text">Checksum</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Urgent-Pointers"><span class="nav-number">1.2.7.</span> <span class="nav-text">Urgent Pointers</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP-三次握手过程"><span class="nav-number">1.3.</span> <span class="nav-text">TCP 三次握手过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么进行三次握手？（三次握手的作用）"><span class="nav-number">1.4.</span> <span class="nav-text">为什么进行三次握手？（三次握手的作用）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#四次挥手"><span class="nav-number">2.</span> <span class="nav-text">四次挥手</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#NFS"><span class="nav-number">1.</span> <span class="nav-text">NFS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">1.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">1.2.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务器操作"><span class="nav-number">1.3.</span> <span class="nav-text">服务器操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NFS相关命令"><span class="nav-number">1.4.</span> <span class="nav-text">NFS相关命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#挂载演示"><span class="nav-number">1.5.</span> <span class="nav-text">挂载演示</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TFTP"><span class="nav-number">2.</span> <span class="nav-text">TFTP</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-1"><span class="nav-number">2.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看客户端tftp和服务器tftpd的帮助文档"><span class="nav-number">2.2.</span> <span class="nav-text">查看客户端tftp和服务器tftpd的帮助文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-1"><span class="nav-number">2.3.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试使用"><span class="nav-number">2.4.</span> <span class="nav-text">测试使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见错误"><span class="nav-number">2.5.</span> <span class="nav-text">常见错误</span></a></li></ol></li></ol></div>
             
 
           </div>
